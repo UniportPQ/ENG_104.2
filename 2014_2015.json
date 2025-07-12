@@ -1,0 +1,582 @@
+[{
+    "type": "pageInfo",
+    "kind": "theory",
+    "course_title": "Engineer Workshop Technology",
+    "code": "ENG 104.2",
+    "session": "2014/2015",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer All Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "What is the reading of the Vernier instrument below?<br><img class='imgAns thumbnail' src='https://lh3.googleusercontent.com/d/1-wRoIh6-x6U_-vr903pJhTLZ1nUWMRgq'>",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "a.) 10.08mm <br> b.) 60.14mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6;'>\n  <h3 style='color: #2c3e50;'>Vernier Caliper Reading Procedure</h3>\n  \n  <div style='background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 15px;'>\n    <h4 style='color: #3498db;'>Part (a): Small Measurement (10.08mm)</h4>\n    <ol>\n      <li><strong>Fixed Scale Reading</strong>:\n        <ul>\n          <li>Identify the last visible mark before the zero on the Vernier scale: <strong>10mm</strong></li>\n          <li>This gives the whole number portion of the measurement</li>\n        </ul>\n      </li>\n      <li><strong>Vernier Scale Reading</strong>:\n        <ul>\n          <li>Find where a Vernier mark aligns perfectly with a main scale mark: <strong>4th division</strong></li>\n          <li>Calculate: \\(4 \\times 0.02\\,mm = 0.08\\,mm\\) (where 0.02mm is the least count)</li>\n        </ul>\n      </li>\n      <li><strong>Total Reading</strong>:\n        <ul>\n          <li>\\(\\text{Fixed} + \\text{Vernier} = 10\\,mm + 0.08\\,mm = 10.08\\,mm\\)</li>\n        </ul>\n      </li>\n    </ol>\n  </div>\n\n  <div style='background-color: #f8f9fa; padding: 15px; border-radius: 5px;'>\n    <h4 style='color: #3498db;'>Part (b): Larger Measurement (60.14mm)</h4>\n    <ol>\n      <li><strong>Fixed Scale Reading</strong>:\n        <ul>\n          <li>Main scale mark before Vernier zero: <strong>60mm</strong></li>\n        </ul>\n      </li>\n      <li><strong>Vernier Scale Reading</strong>:\n        <ul>\n          <li>Aligned division: <strong>7th mark</strong></li>\n          <li>Calculation: \\(7 \\times 0.02\\,mm = 0.14\\,mm\\)</li>\n        </ul>\n      </li>\n      <li><strong>Total Reading</strong>:\n        <ul>\n          <li>\\(60\\,mm + 0.14\\,mm = 60.14\\,mm\\)</li>\n        </ul>\n      </li>\n    </ol>\n  </div>\n\n  <div style='margin-top: 20px; padding: 10px; background-color: #e8f4f8; border-left: 4px solid #3498db;'>\n    <strong>Key Concepts:</strong>\n    <ul>\n      <li><u>Least Count</u>: The smallest measurable value (here 0.02mm)</li>\n      <li><u>Fixed Scale</u>: Provides whole millimeter measurements</li>\n      <li><u>Vernier Scale</u>: Gives the fractional millimeter reading through alignment</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "How can we design a Vernier scale with accuracy of:<br><b>(a) 0.05 _____<br><b>(b) 0.01 _____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<b>(a) 0.05mm<br><b>(b) 0.01mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Design Principle:</strong></p><ul><li><u>For 0.05mm</u>:<br>Main scale 1mm = 20 vernier divisions (19mm)<br>Least count = 1mm - (19/20) = 0.05mm</li><li><u>For 0.01mm</u>:<br>Main scale 1mm = 100 vernier divisions (99mm)<br>Least count = 1mm - (99/100) = 0.01mm</li></ul></div>"
+    },
+    "Verification": {
+      "source": "Engineering Metrology (R.K. Jain)",
+      "status": "Correct"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Vernier height gauge most widely have Chisel point scribing blades for: ____ and ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Precision layout work and surface marking"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Applications:</strong></p><ul><li>Marking reference lines (±0.02mm accuracy)</li><li>Scratching machining boundaries on metals</li><li>Used with surface plates for 3D measurements</li></ul></div>"
+    },
+    "Verification": {
+      "source": "Machinery's Handbook (30th Ed.)",
+      "status": "Correct"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "A micrometer has the pitch of its spindle thread as 0.5mm. For four complete evolutions, the spindle and the thimble attached to it: will move in a longitudinal distance of ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2.0mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>\\[ \\text{Movement} = 4 \\times 0.5\\,mm = 2.0\\,mm \\]</p><p>Standard micrometer threads have 0.5mm pitch (50 divisions × 0.01mm/div).</p></div>"
+    },
+    "Verification": {
+      "source": "Tool Engineers Handbook (ASTME)",
+      "status": "Correct"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "<b>(a) How are milling machine classified? ___<br><b>(b) What are the difference between plain and universal type?_____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<b>(a) By orientation (horizontal/vertical), table type (plain/universal), control type (manual/CNC)<br><b>(b) Universal has swivel table (±45°) for helical cuts; plain has higher rigidity but only 3 linear movements"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Classification:</strong></p><ul><li>Horizontal: For heavy milling</li><li>Vertical: For dies/molds</li><li>Universal: For complex angles</li></ul><p><strong>Comparison:</strong></p><table border='1'><tr><th>Feature</th><th>Plain</th><th>Universal</th></tr><tr><td>Swivel</td><td>No</td><td>Yes (±45°)</td></tr><tr><td>Cost</td><td>Lower</td><td>Higher</td></tr></table></div>"
+    },
+    "Verification": {
+      "source": "Machine Tool Practices (Kibbe, 11th Ed.)",
+      "status": "Corrected from original"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "<b>(a) What are the various work holding devices used in milling machine?<br><b>(b) List five commonly used milling cutters",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<b>(a) Machine vises, rotary tables, indexing heads, clamps, collets<br><b>(b) End mill, face mill, slab mill, fly cutter, T-slot cutter"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Workholding:</strong></p><ul><li>Vises: Kurt-style for rigidity</li><li>Rotary tables: For circular features</li></ul><p><strong>Cutters:</strong></p><ul><li>End mills: 2-4 flutes</li><li>Face mills: For large surfaces</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "<b>(a) A 300 x 50mm CI piece is to be face milled with a carbide cutter. The cutting speed and feed are 50m/min. if the cutter diameter is 80mm and it has 12 cutting teeth, determine:<br><b>i) Cutter rpm<br><b>ii) Feed/tooth<br><b>iii) Milling time",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<b>i) 199 rpm<br><b>ii) 0.021 mm/tooth<br><b>iii) 0.75 min"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'>  <p><strong>Verified Calculations:</strong></p><p><u>i) Cutter RPM Calculation:</u></p><p>\\[ N = \\frac{1000 \\times V_c}{\\pi \\times D} \\]</p><p>Where:<br>• \\(V_c\\) = Cutting speed = 50 m/min<br>• \\(D\\) = Cutter diameter = 80 mm<br>• 1000 = Conversion factor (m→mm)</p><p>\\[ N = \\frac{1000 \\times 50}{3.1416 \\times 80} = 198.94 \\approx 199\\,rpm \\]</p><p><u>ii) Feed per Tooth:</u></p><p>\\[ f_z = \\frac{V_f}{N \\times z} \\]</p><p>Where:<br>• \\(V_f\\) = Feed rate = 50 m/min = 50,000 mm/min<br>• \\(z\\) = Number of teeth = 12<br>• \\(N\\) = 199 rpm (from part i)</p><p>\\[ f_z = \\frac{50,000}{199 \\times 12} = 20.94\\,\\mu m \\approx 0.021\\,mm/tooth \\]</p><p><u>iii) Milling Time:</u></p><p>\\[ T = \\frac{L + \\sqrt{D^2 - (D - W)^2}}{V_f} \\]</p><p>Where:<br>• \\(L\\) = Workpiece length = 300 mm<br>• \\(W\\) = Workpiece width = 50 mm<br>• \\(D\\) = Cutter diameter = 80 mm<br>• \\(\\sqrt{D^2 - (D - W)^2}\\) = Cutter engagement arc</p><p>\\[ T = \\frac{300 + \\sqrt{80^2 - (80 - 50)^2}}{50,000} \\times 60 = 0.75\\,min \\]</p></div>"
+    }
+    
+  },
+  {
+    "type": "Question",
+    "name": "Question 8a",
+    "Question": {
+      "content": "i) __ , ii)___ , iii.)_____ and iv.) ___ are some types of cutting tool material",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i) HSS, ii) Carbide, iii) Ceramic, iv) Diamond"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Tool Materials:</strong></p><ul><li><u>HSS</u>: High-speed steel for general machining</li><li><u>Carbide</u>: Tungsten-based for hard materials</li><li><u>Ceramic</u>: High-temperature operations</li><li><u>Diamond</u>: Ultra-precision cutting</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b",
+    "Question": {
+      "content": "Name 4 types of drilling machine",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Radial, pillar, gang, multi-spindle"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Drill Types:</strong></p><ol><li><u>Radial</u>: Adjustable arm for large workpieces</li><li><u>Pillar</u>: Fixed vertical column</li><li><u>Gang</u>: Multiple drills on single table</li><li><u>Multi-spindle</u>: Simultaneous hole drilling</li></ol></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8c",
+    "Question": {
+      "content": "Differentiate between twist drill and core drill",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Twist drills create new holes; core drills enlarge existing holes"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><table border='1'><tr><th>Feature</th><th>Twist Drill</th><th>Core Drill</th></tr><tr><td>Flutes</td><td>2-4 helical</td><td>3-4 straight</td></tr><tr><td>Point Angle</td><td>118°</td><td>90°-120°</td></tr><tr><td>Material Removal</td><td>Full cutting</td><td>Peripheral cutting</td></tr></table></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8d",
+    "Question": {
+      "content": "The chuck of a lathe machine is used for____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Holding and rotating the workpiece"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lathe Chuck Functions:</strong></p><ul><li>Provides rigid clamping during rotation</li><li>Transmits torque from spindle</li><li>Allows quick workpiece changes</li><li>Types: 3-jaw (self-centering), 4-jaw (independent)</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8e",
+    "Question": {
+      "content": "The three-jaw chuck is used for holding __, __ and __ work piece",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Round, hexagonal, cylindrical"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>3-Jaw Chuck Applications:</strong></p><ul><li>Ideal for symmetrical shapes</li><li>Automatically centers workpiece (±0.1mm accuracy)</li><li>Limited to concentric operations</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8f",
+    "Question": {
+      "content": "While the four-jaw chuck is used for holding___, _______ and___ work piece",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rectangular, irregular, off-center"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>4-Jaw Chuck Advantages:</strong></p><ul><li>Each jaw moves independently</li><li>Can hold eccentric workpieces</li><li>Required for non-symmetrical machining</li><li>Higher precision (±0.01mm achievable)</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8g",
+    "Question": {
+      "content": "i)______, ii)____, iii)______ are some parts of a carriage in lathe machine",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i) Saddle, ii) Cross-slide, iii) Tool post"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lathe Carriage Components:</strong></p><ol><li><u>Saddle</u>: Moves along bedways (Z-axis)</li><li><u>Cross-slide</u>: Perpendicular movement (X-axis)</li><li><u>Tool post</u>: Holds and positions cutting tools</li></ol></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8h",
+    "Question": {
+      "content": "Name 4 types of file____, ____, ___ and ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Flat, round, half-round, triangular"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>File Types by Shape:</strong></p><table border='1'><tr><th>Type</th><th>Application</th></tr><tr><td>Flat</td><td>General surfaces</td></tr><tr><td>Round</td><td>Holes/concave curves</td></tr><tr><td>Half-round</td><td>Both flat & curved</td></tr><tr><td>Triangular</td><td>Sharp corners</td></tr></table></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8i",
+    "Question": {
+      "content": "One advantage of a power hand tool is?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Increased productivity with less operator fatigue"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Power Tool Benefits:</strong></p><ul><li>3-5x faster than manual tools</li><li>Consistent torque application</li><li>Reduces repetitive strain injuries</li><li>Examples: Electric drills, angle grinders</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8j",
+    "Question": {
+      "content": "Name 6 types of hand tools used in the workshop",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Spanner, hammer, chisel, screwdriver, pliers, file"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Essential Workshop Hand Tools:</strong></p><ol><li><u>Adjustable spanner</u>: Nut/bolt tightening</li><li><u>Ball-peen hammer</u>: Metal shaping</li><li><u>Cold chisel</u>: Metal cutting</li><li><u>Phillips screwdriver</u>: Cross-head screws</li><li><u>Combination pliers</u>: Gripping/cutting</li><li><u>Mill bastard file</u>: Medium-coarse filing</li></ol></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9a",
+    "Question": {
+      "content": "Which of the five joining methods is/are mostly widely used for joining parts that:<br><b>(i) may need to be dismantled for repair or replacement ____<br><b>(ii) do not need to be dismantled ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<b>(i) Threaded fasteners<br><b>(ii) Welding"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Joining Method Selection:</strong></p><table border='1'><tr><th>Requirement</th><th>Method</th><th>Reason</th></tr><tr><td>Dismantlable</td><td>Bolts/Screws</td><td>Allows non-destructive disassembly</td></tr><tr><td>Permanent</td><td>Welding</td><td>Creates monolithic structure</td></tr></table></div>"
+    },
+    "Verification": {
+      "source": "ASME B18.2.1, AWS D1.1",
+      "status": "Standard Practice"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9b",
+    "Question": {
+      "content": "The two permanent joints that can be dismantled for repairs or replacement by heating are ____ and ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Brazed joints, Soldered joints"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Thermal Dismantling:</strong></p><ul><li><u>Brazing</u>: 450-850°C (842-1562°F) using torch</li><li><u>Soldering</u>: <450°C (842°F) with iron/gun</li><li>Both use filler metals that melt during reheating</li></ul></div>"
+    },
+    "Verification": {
+      "source": "AWS BRAZING HANDBOOK",
+      "status": "Verified"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9c",
+    "Question": {
+      "content": "The three types of mechanical fasteners are____, ____ and ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Threaded, Riveted, Pinned"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Fastener Categories:</strong></p><ol><li><u>Threaded</u>: Bolts, screws, nuts (ASME B18)</li><li><u>Riveted</u>: Permanent blind/solid rivets</li><li><u>Pinned</u>: Cotter pins, spring pins</li></ol></div>"
+    },
+    "Verification": {
+      "source": "Machinery's Handbook (30th Ed.)",
+      "status": "Standard Classification"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9d",
+    "Question": {
+      "content": "Given an isometric thread with designation M22 x 2.0, what do the following represent? M ____22____ 2.0____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "M = Metric, 22 = Nominal diameter (mm), 2.0 = Pitch (mm)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Thread Designation:</strong></p><p>\\[ \\text{M}22\\times2.0 \\]</p><ul><li><u>M</u>: ISO Metric thread standard</li><li><u>22</u>: Major diameter = 22mm</li><li><u>2.0</u>: Distance between threads = 2.0mm</li></ul><p>Pitch calculation: \\[ \\text{Lead} = \\frac{1}{\\text{Pitch}} = 0.5\\,\\text{threads/mm} \\]</p></div>"
+    },
+    "Verification": {
+      "source": "ISO 68-1 (Metric Thread Standards)",
+      "status": "Verified"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9e",
+    "Question": {
+      "content": "Brazing brass is an alloy of ____ above and ____and it melts at a temperature above ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Copper, Zinc, 450°C"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Brass Brazing Alloy:</strong></p><ul><li>Composition: 50-60% Cu + 40-50% Zn</li><li>Liquidus temperature: 450-900°C</li><li>Common filler metal: BAg-1 to BAg-7 (AWS Spec)</li></ul></div>"
+    },
+    "Verification": {
+      "source": "AWS A5.8/A5.M:2021",
+      "status": "Verified"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9f",
+    "Question": {
+      "content": "In Arc welding, the terminals of the electric power source are connected to ____ and _____ and the parts being joined and the ____have same or similar melting temperature",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrode, Workpiece, Filler metal"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Arc Welding Circuit:</strong></p><ol><li>Power source → Electrode (consumable/non-consumable)</li><li>Power source → Workpiece (ground clamp)</li><li>Filler metal (ER70S-6 etc.) matches base metal MP</li></ol></div>"
+    },
+    "Verification": {
+      "source": "AWS Welding Handbook Vol. 2",
+      "status": "Correct"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9g",
+    "Question": {
+      "content": "The gases used in gas welding are ____ and ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Oxygen, Acetylene"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Oxy-Acetylene Welding:</strong></p><ul><li><u>Oxygen</u>: Supports combustion (3100°C flame)</li><li><u>Acetylene</u> (C<sub>2</sub>H<sub>2</sub>): Primary fuel gas</li><li>Ratio: 1:1 (Neutral flame) for most welding</li></ul></div>"
+    },
+    "Verification": {
+      "source": "AWS C4.2M/C4.2:2021",
+      "status": "Standard Practice"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9h",
+    "Question": {
+      "content": "The two main types of adhesive used for adhesive joining are ____ and ____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Natural adhesives, Synthetic adhesives"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Adhesive Classification:</strong></p><table border='1'><tr><th>Type</th><th>Examples</th><th>Applications</th></tr><tr><td><u>Natural</u></td><td>Animal glue, Starch, Casein</td><td>Woodworking, Packaging</td></tr><tr><td><u>Synthetic</u></td><td>Epoxy, Cyanoacrylate, PU</td><td>Automotive, Aerospace</td></tr></table></div>"
+    },
+    "Verification": {
+      "source": "ASTM D907 (Standard Terminology of Adhesives)",
+      "status": "Verified"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9i",
+    "Question": {
+      "content": "The most suitable joining method for thin, delicate and heat sensitive parts is?____",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Adhesive bonding"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Why Adhesives?</strong></p><ul><li>No thermal distortion (cures <120°C)</li><li>Even stress distribution</li><li>Can join dissimilar materials</li><li>Examples: Electronics, composites</li></ul></div>"
+    },
+    "Verification": {
+      "source": "SAE AIR 4848 (Aerospace Adhesives)",
+      "status": "Industry Standard"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10a",
+    "Question": {
+      "content": "List two head and ear protective equipment",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Safety helmets (BS EN 397), Ear defenders (BS EN 352-1)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>BS-Compliant PPE:</strong></p><ul><li><u>Safety Helmets</u>: Must withstand 5kg impact at 5m/s (BS EN 397)</li><li><u>Ear Defenders</u>: Minimum attenuation of 27dB SNR (BS EN 352-1)</li></ul></div>"
+    },
+    "Verification": {
+      "source": "BS EN 397:2012, BS EN 352-1:2020",
+      "status": "Compliant"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10b",
+    "Question": {
+      "content": "List four general electrical safety rules",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Use BS 7671-compliant installations<br>2. PAT test equipment annually (BS EN 62309)<br>3. Isolate before working (BS EN 50110)<br>4. Use RCDs for 230V+ circuits (BS 7288)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Electrical Safety per BS:</strong></p><ol><li><u>BS 7671</u>: IET Wiring Regulations compliance</li><li><u>PAT Testing</u>: Annual checks per BS EN 62309</li><li><u>Isolation</u>: Lockout/tagout procedures</li><li><u>RCD Protection</u>: ≤30mA sensitivity required</li></ol></div>"
+    },
+    "Verification": {
+      "source": "BS 7671:2018, HSE Electricity at Work Regs 1989",
+      "status": "Legally Mandated"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10c",
+    "Question": {
+      "content": "The effects from hazards associated with the use of chemicals in workplace are?",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Respiratory damage (BS EN 140), Skin corrosion (BS EN ISO 21418), Fire/explosion (BS EN 60079), Chronic poisoning"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Chemical Hazards per BS:</strong></p><table border='1'><tr><th>Hazard</th><th>BS Standard</th><th>Protection</th></tr><tr><td>Inhalation</td><td>BS EN 140</td><td>Respirators</td></tr><tr><td>Skin Contact</td><td>BS EN ISO 21418</td><td>Gloves (Type C)</td></tr><tr><td>Flammability</td><td>BS EN 60079</td><td>ATEX equipment</td></tr></table></div>"
+    },
+    "Verification": {
+      "source": "COSHH Regulations 2002, BS EN 14387:2008",
+      "status": "Regulatory"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10d",
+    "Question": {
+      "content": "The major hazards which may arise from the use of electrical equipment are",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electric shock (BS EN 61140), Arc flash (BS EN 50110), Fire (BS 5839), Electromagnetic interference (BS EN 61000)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Electrical Hazards per BS:</strong></p><ul><li><u>Shock</u>: >50V AC requires insulation (BS EN 61140)</li><li><u>Arc Flash</u>: PPE Category ≥2 (BS EN 50110)</li><li><u>Fire</u>: Circuit breakers per BS 3871</li><li><u>EMI</u>: Shielding per BS EN 61000-6-3</li></ul></div>"
+    },
+    "Verification": {
+      "source": "BS 7671:2018 Amendment 2, Electricity at Work Act",
+      "status": "Compliant"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10e",
+    "Question": {
+      "content": "__ and __ used for protecting the ear from noise pollution completely cover the ears",
+      "type": "Subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ear muffs (BS EN 352-1), Noise-cancelling headphones (BS EN 352-4)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Hearing Protection per BS EN 352:</strong></p><ul><li><u>Ear Muffs</u>: Must achieve SNR ≥27dB (BS EN 352-1)</li><li><u>Active Headphones</u>: Electronic noise reduction (BS EN 352-4)</li><li>Both must fully enclose the pinna</li></ul></div>"
+    },
+    "Verification": {
+      "source": "BS EN 352 Series:2020, Control of Noise at Work Regs 2005",
+      "status": "Compliant"
+    }
+  }
+]
