@@ -1,0 +1,309 @@
+[  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Engineer Workshop Technology",
+    "code": "ENG 104.2",
+    "session": "2022/2023",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer All Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "State five safety provisions that you are aware of in a standard engineering workshop",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Personal Protective Equipment (PPE) requirement\n2. Machine guarding on all moving parts\n3. Proper ventilation systems\n4. Emergency stop buttons\n5. First aid kits and eye wash stations"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>These provisions form the foundation of workshop safety: PPE (goggles, gloves, steel-toe boots) protects workers from direct hazards. Machine guards prevent contact with dangerous moving parts. Ventilation removes harmful fumes. Emergency stops allow immediate shutdown, while first aid facilities enable prompt treatment of injuries - a legal requirement under UK Health and Safety at Work Act.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Do not throw water on any equipment in the workshop is one of the safety rules. The rule is aimed at preventing?",
+      "type": "OBJ",
+      "options": [
+        "fire",
+        "pressure surge",
+        "engine knock",
+        "electric shock"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "electric shock"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Water conducts electricity and can create dangerous pathways for current to flow through equipment casings to operators. This violates IEC 60364 electrical safety standards. For electrical fires, CO<sub>2</sub> extinguishers are used instead. The rule also prevents equipment corrosion and short-circuiting of sensitive electronics.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Which of this is not a safety regulation requirement",
+      "type": "OBJ",
+      "options": [
+        "space dimension",
+        "equipment maintenance",
+        "floor condition",
+        "fire detector"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "space dimension"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>While workspace dimensions affect ergonomics, they aren't mandated by safety regulations like the Provision and Use of Work Equipment Regulations 1998 (PUWER). Mandatory requirements include: equipment maintenance (PUWER Reg.5), slip-resistant floors (Workplace Health, Safety Regulations 1992), and fire detectors (Regulatory Reform Order 2005). Space is an efficiency consideration, not a legal safety minimum.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "State any two hand tools that can be used to remove fine remains from a metal surface during metal working.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Engineer's scraper\n2. Filing tool"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Engineer's scraper:</strong> A hardened steel blade for precision removal of microns-thick material, especially useful for bearing surfaces. <strong>Files:</strong> Come in various cuts (bastard, second, smooth) for progressive material removal. Both tools are essential for achieving surface finishes of 0.8-1.6μm Ra where power tools might be too aggressive.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "State two reasons why we use power tools instead of hand tools to process a work-piece",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Increased productivity through higher material removal rates\n2. Improved consistency and precision in repetitive operations"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Power tools like angle grinders can remove material 10-15x faster than manual filing. CNC machines achieve tolerances within ±0.01mm consistently, impossible manually. They also reduce worker fatigue - a drill press exerts 500N force effortlessly versus 150N maximum sustained human force. This aligns with modern lean manufacturing principles.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Identify the type of measuring device shown below and label the blanks appropriately",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Micrometer screw gauge\nLabels:\n- Main scale (marked in mm)\n- Ratchet (for consistent pressure)\n- Thimble (rotating scale for 0.01mm precision)\n- Anvil (fixed measuring face)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Micrometers use screw amplification principle - one full thimble rotation (50 divisions) moves the spindle 0.5mm, so each division equals 0.01mm. The ratchet ensures consistent measuring force (typically 5-10N) to prevent deformation of soft materials. Proper use involves: cleaning measuring faces, using ratchet for final tension, and reading both sleeve and thimble scales as shown in BS 870.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "State categorically, the function of an ultrasonic measurement device",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non-contact thickness measurement using sound wave reflection"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Ultrasonic testers emit high-frequency sound waves (typically 1-10MHz) that reflect off material interfaces. By measuring time-of-flight of echoes and knowing the material's sound velocity (e.g., 5920 m/s in steel), thickness is calculated as d = (v×t)/2. This allows measurement of internal pipe walls or composite layers without disassembly, with ±0.1mm accuracy per EN 14127 standards.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "State two kinds of engineers hammer you know",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Ball-peen hammer (for metal shaping)\n2. Dead blow hammer (for assembly work)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Ball-peen:</strong> The rounded peen (from 'pein' - Old English for 'end') is used for riveting and metal forming, as it spreads metal radially without cutting. <strong>Dead blow:</strong> Filled with shot to minimize rebound, crucial for precision assembly where uncontrolled bouncing could damage components. Engineer's hammers are heat-treated to 50-55 HRC hardness - harder than carpenter's hammers (40-45 HRC) to withstand metal-on-metal impact.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "State the main difference between a photonic and a laser measuring device",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Laser devices use coherent light for precision distance measurement, while photonic devices detect general light presence/absence"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Lasers employ stimulated emission (coherent photons at 630-670nm wavelength) for interferometric measurements with 0.001mm resolution. Photonic sensors use ambient or LED light to detect object presence, typically with 0.1-1mm accuracy. For example, laser scanners can profile complex surfaces using triangulation, while photonic gates simply confirm part presence on conveyor lines per ISO 13855 safety standards.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "Which of this is not a power tool?",
+      "type": "OBJ",
+      "options": [
+        "mallet",
+        "circular saw",
+        "drill press",
+        "nail pin"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "mallet"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>A mallet is a hand tool with a rubber, wood, or plastic head used for striking without marring surfaces. Power tools are defined by BS EN 60745 as tools with electric/hydraulic/pneumatic power sources. Circular saws (2000-5000 RPM), drill presses (with geared chucks), and nail guns (100-120 psi operation) all meet this definition. Mallets rely solely on kinetic energy from manual swinging.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "Hall effect device uses an electric sensor for measurement:",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Hall effect sensors (per IEC 62328) measure magnetic fields by detecting voltage perpendicular to current flow in semiconductors. When exposed to magnetic flux (typically 1-100mT), they output proportional voltage (2.5-5V DC). Common applications include: position sensing in CNC machines (0.01mm repeatability), current measurement in welders (non-contact), and RPM detection in gearboxes through tooth-counting.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Which of this is a metal deformation process?",
+      "type": "OBJ",
+      "options": [
+        "fastening",
+        "bolt and nut",
+        "soldering",
+        "warm working"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "warm working"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Warm working (per ISO 4885) involves plastic deformation at 0.3-0.5 of melting temperature (Tm), offering advantages over cold working: lower forces required (30-50% reduction) while avoiding recrystallization. Examples include warm forging of crankshafts at 600-800°C. Fastening/bolting are assembly methods, while soldering (below 450°C) is joining without bulk deformation.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "In general, metal working projects can be categorized as follows",
+      "type": "OBJ",
+      "options": [
+        "deformation, form fabrication",
+        "rolling, forging and stamping",
+        "cutting, turning and chamfering",
+        "soldering and welding"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "rolling, forging and stamping"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>These represent the three primary bulk deformation processes: <strong>Rolling</strong> reduces thickness between cylinders (e.g., sheet metal production). <strong>Forging</strong> compresses metal between dies (e.g., crankshafts). <strong>Stamping</strong> uses punches/dies for sheet metal parts. Together they account for 70% of metal forming per CIRP reports. Other options mix categories (cutting is subtractive, joining is assembly).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "Which of this is not a machining operation?",
+      "type": "OBJ",
+      "options": [
+        "knurling",
+        "turning",
+        "chamfering",
+        "grooving"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "knurling"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Knurling is a forming process where patterned rollers displace (rather than cut) material to create grip surfaces. Machining (per ISO 3002) requires chip formation via cutting tools: turning (cylindrical work), chamfering (edge breaking), and grooving (internal/external cuts) all remove material. Knurling pressures reach 200-400N/mm<sup>2</sup> without generating chips, classified as cold working.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "Name two basic stresses that a metal can be subjected to during bulk deformation",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Compressive stress\n2. Shear stress"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>During bulk deformation: <strong>Compressive stress</strong> (σ<sub>c</sub>) dominates in processes like forging (up to 2500MPa in steel). <strong>Shear stress</strong> (τ) occurs along slip planes during metal flow (critical in rolling, where τ ≥ 0.5σ<sub>y</sub> to initiate plasticity). These differ from tensile stresses (stretching) or bending (combined stresses) seen in other processes. The von Mises yield criterion relates these for plastic deformation.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "Question": {
+      "content": "If a mortise gauge is used for marking out lines on wood for cutting. What is a head square for?",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Checking and marking right angles (90°) on woodwork"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>While mortise gauges (with dual scribing pins) mark parallel lines for joints, head squares (also called try squares) verify perpendicularity to ±0.1mm/m per BS 939. The steel blade and wooden/metal stock form a precise 90° reference for: checking machine setups, marking crosscuts, and verifying assembly squareness - critical for frame-and-panel constructions where deviations >0.5mm cause visible gaps.</p></div>"
+    }
+  }
+]
