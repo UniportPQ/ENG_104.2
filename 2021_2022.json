@@ -1,0 +1,534 @@
+[{
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Engineer Workshop Technology",
+    "code": "ENG 104.2",
+    "session": "2014/2015",
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer All Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "A state in which the workshop operates in a healthy and hazard-free working condition is referred to as?",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Safety"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>A safe working environment ensures that all hazards are minimised or eliminated, and health risks are managed. This includes proper ventilation, clean floors, functional equipment, and adherence to safety protocols.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Among these safety devices, which is not personal protection equipment?",
+      "type": "OBJ",
+      "options": [
+        "Hard-hat",
+        "Ventilator",
+        "Kneel pad",
+        "Helmet"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ventilator"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>A ventilator is a machine used to assist or replace spontaneous breathing, typically in medical settings. It is not classified as personal protection equipment (PPE), which includes items like hard-hats, kneel pads, and helmets designed to protect the wearer from injury.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Which of this is not a safety regulation requirement?",
+      "type": "OBJ",
+      "options": [
+        "Space dimension",
+        "Equipment maintenance",
+        "Floor condition",
+        "Fire detector"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Space dimension"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>While space dimension is important for ergonomics and workflow, it is not typically a mandatory safety regulation requirement. Safety regulations focus more on equipment maintenance, floor conditions (e.g., slip resistance), and the presence of fire detectors to ensure hazard prevention.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "Which of this is not a hand tool for metal works?",
+      "type": "OBJ",
+      "options": [
+        "Engineers file",
+        "Bell sander",
+        "Laser thermometer",
+        "Vice"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Laser thermometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>A laser thermometer is a measuring device used to detect temperature without contact. It is not a hand tool for metal works, unlike an engineer's file (for shaping metal), a bell sander (for smoothing surfaces), or a vice (for holding workpieces).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "State two reasons why we use hand tools instead of machines to process a work-piece.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Precision: Hand tools allow for finer control in detailed work. 2. Portability: Hand tools are easier to transport and use in confined spaces."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Hand tools are often preferred for tasks requiring precision, such as carving or finishing, where machines may lack the necessary finesse. Additionally, hand tools are portable and do not require power sources, making them ideal for remote or small-scale projects.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "Identify the type of hand tool shown below and label the parts appropriately.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "img",
+      "alt": "Diagram",
+      "content": "https://lh3.googleusercontent.com/d/10TsXRN9GDjhMLlaZPNyavXyRf1Vjh1N-"
+      
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'>That is a scrapper</div>"
+    }
+  },
+  {
+    "type": "img",
+    "alt": "Diagram",
+    "Caption": "Use to answer Question 6",
+    "content": "https://lh3.googleusercontent.com/d/10O1cYbqcaiCExztk9t0uqQ5ogaBayN6m"
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "During the processing of a work-piece, state the categorical function of a scraper.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To remove fine layers of material (e.g., paint, rust, or burrs) for smoothing or finishing surfaces."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Scrapers are used for precision finishing tasks, such as deburring metal edges or preparing surfaces for further treatment. They operate by shaving off thin material layers without damaging the underlying workpiece.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "State two kinds of engineers hammer you know.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Ball-peen hammer <br>     2. Cross-peen hammer "
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Six Essential Engineer's Hammers:</strong></p><ol><li><strong>Ball-peen:</strong> Rounded end for metal shaping and rivet work</li><li><strong>Cross-peen:</strong> Wedge-shaped end for starting panel pins</li><li><strong>Straight-peen:</strong> Narrow peen for confined space metal forming</li><li><strong>Drilling hammer:</strong> Heavy head for forceful strikes</li><li><strong>Soft-faced:</strong> Replaceable heads (rubber/plastic) for delicate work</li><li><strong>Claw hammer:</strong> Standard for both driving and removing nails</li></ol><p>Note: Peen refers to the hammer's secondary working end, crucial for specific metalworking tasks.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "State one simple difference between a hand tool and a power tool.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Hand tools are manually operated, while power tools rely on an external power source (e.g., electricity or batteries)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Hand tools (e.g., screwdrivers) require physical effort, offering more control. Power tools (e.g., drills) automate tasks for efficiency but may lack precision in delicate work.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "Which of these is not a power tool?",
+      "type": "OBJ",
+      "options": [
+        "Mallet",
+        "Circular saw",
+        "Drill press",
+        "Nail gun"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mallet"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>A mallet is a hand tool with a rubber or wooden head, used for striking without damaging surfaces. Circular saws, drill presses, and nail guns are power tools requiring electricity or compressed air.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "Ultrasonic non-contact measuring device applies magnetic sensor for measurement:",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "False"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Ultrasonic devices use sound waves to measure distance or detect objects, not magnetic sensors. Magnetic sensors are employed in other instruments like Hall effect sensors.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Which of these is a type of liquid-solid-state metal joining process?",
+      "type": "OBJ",
+      "options": [
+        "Fastening",
+        "Bolt and nut",
+        "Soldering",
+        "Screwing"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Soldering"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Soldering involves melting a filler metal (solder) to join parts without melting the base metals. It is a liquid-solid-state process, unlike mechanical methods like fastening or screwing.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "In general, metal working projects can be categorized as follows:",
+      "type": "OBJ",
+      "options": [
+        "Deformation, forming and fabrication",
+        "Rolling, forging and stamping",
+        "Cutting, turning and chamfering",
+        "Brazing, soldering and welding"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Deformation, forming and fabrication"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Metalworking broadly includes deformation (e.g., bending), forming (e.g., casting), and fabrication (e.g., assembling). The other options list specific techniques within these categories.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "The following are products of wood working, except:",
+      "type": "OBJ",
+      "options": [
+        "Adjustable die",
+        "Roof truss",
+        "Cabinet",
+        "Bed floor"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Adjustable die"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>An adjustable die is a metalworking tool used to cut external threads. Roof trusses, cabinets, and bed floors are all woodworking products.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "Name the basic stresses or forces that metals are subjected to during bulk deformation.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Compressive, tensile, shear, and torsional stresses."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Bulk deformation processes (e.g., forging) subject metals to compressive (pushing), tensile (pulling), shear (sliding), and torsional (twisting) forces, altering their shape permanently.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "Question": {
+      "content": "A palm sander used for wood working is a power tool.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Palm sanders are electrically powered tools designed for smoothing wood surfaces. They are classified as power tools due to their reliance on an external energy source.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "Question": {
+      "content": "Which of these wood joints is primarily considered as traditional?",
+      "type": "OBJ",
+      "options": [
+        "Biscuit joint",
+        "Miter joint",
+        "Mortise and tenon joint",
+        "Tongue and groove joint"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mortise and tenon joint"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>The mortise and tenon joint, dating back thousands of years, is a classic woodworking joint known for its strength and durability. Biscuit joints are modern, using oval-shaped wood pieces for alignment.</p></div>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "Question": {
+      "content": "Identify the Diagram shown below",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "External Threading"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>External Threading</strong> refers to the helical ridges cut into the outer surface of cylindrical objects like bolts or pipes. Key characteristics shown in the diagram would include:</p><ul><li><strong>Thread Crest:</strong> The outermost peak of the thread</li><li><strong>Thread Root:</strong> The innermost base between threads</li><li><strong>Flank:</strong> The connecting surface between crest and root</li><li><strong>Thread Angle:</strong> Typically 60° for metric threads</li><li><strong>Pitch:</strong> The distance between adjacent threads</li></ul><p>This threading process is commonly achieved using <strong>dies</strong> for manual threading or <strong>lathes</strong> for precision machining. External threads mate with internal threads to create secure fastening systems in engineering applications.</p></div>"
+    }
+  },
+  {
+    "type": "img",
+    "alt": "Diagram",
+    "Caption": "Use to answer Question 18",
+    "content": "https://lh3.googleusercontent.com/d/10UmM4E-scWUc4ccOLS-kef42f13yMs4M"
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "Question": {
+      "content": "Which of these lathes is considered as the most common?",
+      "type": "OBJ",
+      "options": [
+        "Bench lathe",
+        "Capstan lathe",
+        "Automated lathe",
+        "Center lathe"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Center lathe"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Center lathes</strong> (also called engine lathes) are the most common type because:</p><ul><li>They handle a wide range of general-purpose turning operations</li><li>Offer flexibility for both small and large workpieces</li><li>Are more affordable than specialized lathes</li><li>Common in training workshops and industrial settings</li></ul><p>Bench lathes are smaller versions, while capstan and automated lathes are specialized for mass production.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "Question": {
+      "content": "In the selection of wood for application, the following factors are significantly considered except?",
+      "type": "OBJ",
+      "options": [
+        "Workability of wood",
+        "Quality of wood grain",
+        "Durability of wood",
+        "Accessibility of wood"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Accessibility of wood"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>While <strong>accessibility</strong> (availability/transport) affects cost, it's not a <em>technical</em> selection factor. The essential considerations are:</p><ul><li><strong>Workability:</strong> How easily it can be cut/shaped</li><li><strong>Grain quality:</strong> Affects strength and appearance</li><li><strong>Durability:</strong> Resistance to wear and decay</li></ul><p>Accessibility becomes relevant only after technical requirements are met.</p></div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a",
+    "Question": {
+      "content": "State the basic differences between fusion and laser welding",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Heat Source: Fusion welding uses various heat sources (arc, gas, etc.), while laser welding uses concentrated light beams.\n2. Precision: Laser welding offers finer control with smaller heat-affected zones.\n3. Equipment: Fusion welding requires consumable electrodes/filler material, laser welding often doesn't."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Key Differences:</strong></p><ul><li><strong>Process:</strong> Fusion welding melts base materials together (with/without filler), while laser welding uses photon energy for localized melting</li><li><strong>Applications:</strong> Fusion for heavy fabrication, laser for precision components</li><li><strong>Skill Requirement:</strong> Laser welding requires more technical training to operate safely</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b",
+    "Question": {
+      "content": "State the basic differences between a Vernier and a micrometer measuring instrument",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Precision: Micrometers (0.01mm) are more precise than Vernier calipers (0.02mm).\n2. Design: Micrometers have a screw mechanism, Verniers use sliding scales.\n3. Usage: Micrometers measure small thicknesses/diameters, Verniers handle internal/external/depth measurements."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Measurement Tools Comparison:</strong></p><ul><li><strong>Accuracy:</strong> Micrometers use ratchet stops for consistent pressure, reducing human error</li><li><strong>Versatility:</strong> Verniers can measure steps and recesses where micrometers can't reach</li><li><strong>Reading Method:</strong> Verniers require interpreting aligned lines, micrometers read threaded barrel rotations</li></ul></div>"
+    }
+  },
+  {
+    "type": "img",
+    "alt": "Diagram",
+    "Caption": "Use to answer Question below",
+    "content": "https://lh3.googleusercontent.com/d/10cG3CTkoHIP6FavjyRWrZhLBOX7C1eyi"
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 1c",
+    "Question": {
+      "content": "Find the most accurate measurement that can be read from the scale below",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i) Micrometer reading = 5.92mm\nii) Vernier caliper reading = 38.06mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Measurement Calculations:</strong></p><ol><li><strong>Micrometer:</strong> 5.5mm (sleeve) + 0.42mm (thimble) = 5.92mm</li><li><strong>Vernier Caliper:</strong> 38mm (main scale) + 0.06mm (vernier scale) = 38.06mm</li></ol><p>These represent the maximum precision achievable with standard workshop instruments (0.01mm for micrometers, 0.02mm for verniers).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a",
+    "Question": {
+      "content": "A metal wire made of copper, originally of 10mm diameter was cold worked to a final diameter of 6mm. Determine the percentage cold working of the metal wire.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "64% cold working"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Formula:</strong> %CW = [(A<sub>0</sub>-A<sub>f</sub>)/A<sub>0</sub>]×100</p><ol><li>Original area (A<sub>0</sub>) = π(10/2)<sup>2</sup> = 78.54 mm<sup>2</sup></li><li>Final area (A<sub>f</sub>) = π(6/2)<sup>2</sup> = 28.27 mm<sup>2</sup></li><li>%CW = [(78.54-28.27)/78.54]×100 = 64%</li></ol><p>This formula calculates the cross-sectional area reduction during cold working, which increases strength but reduces ductility.</p></div>"
+    }
+  },
+  {
+    "type": "img",
+    "alt": "Diagram",
+    "Caption": "Use to answer Question below",
+    "content": "https://lh3.googleusercontent.com/d/10jdkt5nMaV_UpaoR251exnICTnJktamQ"
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b",
+    "Question": {
+      "content": "Consider a machined work-piece undergoing cutting operation with given dimensions. Estimate: (i) Depth of cutting (ii) Cutting speed (iii) Machining time",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) 5mm (ii) 3.77 m/min (iii) 1.67 minutes"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Formulas:</strong></p><ol><li><strong>Depth of cut (d):</strong> (D<sub>0</sub>-D<sub>i</sub>)/2 = (20-10)/2 = 5mm<br><em>Measures radial engagement of cutting tool</em></li><li><strong>Cutting speed (V):</strong> π×D<sub>avg</sub>×N = π×0.015m×60 = 2.827 m/min ≈ 3.77 m/min<br><em>D<sub>avg</sub> = (20+10)/2 = 15mm = 0.015m</em></li><li><strong>Machining time (T):</strong> L/(F×N) = 200/(20×60) = 0.167 min = 1.67 minutes<br><em>Accounts for feed rate (20mm/rev) and workpiece length</em></li></ol></div>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 2c",
+    "Question": {
+      "content": "List and state the function of five basic hand tools used in carpentry and joinery.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Claw Hammer - Driving nails and pulling them out\n2. Tenon Saw - Precision cutting of wood joints\n3. Chisel - Carving and shaping wood\n4. Marking Gauge - Scoring accurate reference lines\n5. Jack Plane - Smoothing and reducing wood thickness"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Tool Functions:</strong></p><ol><li><strong>Claw Hammer:</strong> Curved claw removes nails without damaging wood</li><li><strong>Tenon Saw:</strong> Rigid back ensures straight cuts for mortise-and-tenon joints</li><li><strong>Chisel:</strong> Beveled edge cleans out joint recesses when paired with mallet</li><li><strong>Marking Gauge:</strong> Adjustable spur scratches precise layout lines parallel to edges</li><li><strong>Jack Plane:</strong> Removes thin shavings to achieve flat surfaces</li></ol></div>"
+    }
+  }
+]
