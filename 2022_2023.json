@@ -1,4 +1,4 @@
-[  {
+[{
     "type": "pageInfo",
     "kind": "pureOBJ",
     "course_title": "Engineer Workshop Technology",
@@ -19,7 +19,7 @@
     },
     "Answer": {
       "type": "string",
-      "content": "1. Personal Protective Equipment (PPE) requirement\n2. Machine guarding on all moving parts\n3. Proper ventilation systems\n4. Emergency stop buttons\n5. First aid kits and eye wash stations"
+      "content": "1. Personal Protective Equipment (PPE) requirement <br> 2. Machine guarding on all moving parts<br>3. Proper ventilation systems<br>4. Emergency stop buttons<br>5. First aid kits and eye wash stations"
     },
     "Explanation": {
       "type": "string",
@@ -79,7 +79,7 @@
     },
     "Answer": {
       "type": "string",
-      "content": "1. Engineer's scraper\n2. Filing tool"
+      "content": "1. Engineer's scraper<br>2. Filing tool"
     },
     "Explanation": {
       "type": "string",
@@ -95,7 +95,7 @@
     },
     "Answer": {
       "type": "string",
-      "content": "1. Increased productivity through higher material removal rates\n2. Improved consistency and precision in repetitive operations"
+      "content": "1. Increased productivity through higher material removal rates<br>2. Improved consistency and precision in repetitive operations"
     },
     "Explanation": {
       "type": "string",
@@ -106,16 +106,16 @@
     "type": "Question",
     "name": "Question 6",
     "Question": {
-      "content": "Identify the type of measuring device shown below and label the blanks appropriately",
+      "content": "Identify the type of measuring device shown below and label the blanks appropriately <br> <img alt='Micrometer Screw Gauge' class='imgAns thumbnail' src='https://lh3.googleusercontent.com/d/10sLXtKtUurYwo79dAeNccNtA9fs7JcV2'> ",
       "type": "SUBJ"
     },
     "Answer": {
       "type": "string",
-      "content": "Micrometer screw gauge\nLabels:\n- Main scale (marked in mm)\n- Ratchet (for consistent pressure)\n- Thimble (rotating scale for 0.01mm precision)\n- Anvil (fixed measuring face)"
+      "content": "anvil, spindle, Thimble Scale"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Micrometers use screw amplification principle - one full thimble rotation (50 divisions) moves the spindle 0.5mm, so each division equals 0.01mm. The ratchet ensures consistent measuring force (typically 5-10N) to prevent deformation of soft materials. Proper use involves: cleaning measuring faces, using ratchet for final tension, and reading both sleeve and thimble scales as shown in BS 870.</p></div>"
+      "content": "<div style='font-family: Arial; line-height: 1.6'> <b>Micrometer Screw Gauge</b><br> <img alt='Micrometer Screw Gauge' class='imgAns thumbnail' src='https://lh3.googleusercontent.com/d/11AHgU8Z24T8uQwOYy4Tsy6QhtNOorbUz'></div>"
     }
   },
   {
@@ -143,30 +143,14 @@
     },
     "Answer": {
       "type": "string",
-      "content": "1. Ball-peen hammer (for metal shaping)\n2. Dead blow hammer (for assembly work)"
+      "content": "1. Ball-peen hammer (for metal shaping)<br>2. Dead blow hammer (for assembly work)"
     },
     "Explanation": {
       "type": "string",
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Ball-peen:</strong> The rounded peen (from 'pein' - Old English for 'end') is used for riveting and metal forming, as it spreads metal radially without cutting. <strong>Dead blow:</strong> Filled with shot to minimize rebound, crucial for precision assembly where uncontrolled bouncing could damage components. Engineer's hammers are heat-treated to 50-55 HRC hardness - harder than carpenter's hammers (40-45 HRC) to withstand metal-on-metal impact.</p></div>"
     }
   },
-  {
-    "type": "Question",
-    "name": "Question 9",
-    "Question": {
-      "content": "State the main difference between a photonic and a laser measuring device",
-      "type": "SUBJ"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Laser devices use coherent light for precision distance measurement, while photonic devices detect general light presence/absence"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p>Lasers employ stimulated emission (coherent photons at 630-670nm wavelength) for interferometric measurements with 0.001mm resolution. Photonic sensors use ambient or LED light to detect object presence, typically with 0.1-1mm accuracy. For example, laser scanners can profile complex surfaces using triangulation, while photonic gates simply confirm part presence on conveyor lines per ISO 13855 safety standards.</p></div>"
-    }
-  },
-  {
+  { "type": "Question", "name": "Question 9", "Question": { "content": "State the main difference between a photonic and a laser measuring device", "type": "SUBJ" }, "Answer": { "type": "string", "content": "Laser devices use coherent light for precision distance measurement, while photonic devices detect general light presence/absence" }, "Explanation": { "type": "string", "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%;margin:15px 0'><thead><tr style='background-color:#f2f2f2'><th>Feature</th><th>Laser Measuring Device</th><th>Photonic Device</th></tr></thead><tbody><tr><td><strong>Light Source</strong></td><td>Coherent laser light (630-670nm)</td><td>Ambient/LED light</td></tr><tr><td><strong>Measurement Principle</strong></td><td>Interferometry/Time-of-flight</td><td>Light intensity detection</td></tr><tr><td><strong>Typical Accuracy</strong></td><td>±0.001mm</td><td>±0.1-1mm</td></tr><tr><td><strong>Applications</strong></td><td>3D scanning, Precision alignment</td><td>Object detection, Safety gates</td></tr><tr><td><strong>Standards</strong></td><td>IEC 60825-1</td><td>ISO 13855</td></tr><tr><td><strong>Cost</strong></td><td>£500-£10,000+</td><td>£50-£300</td></tr></tbody></table><p><strong>Key Difference:</strong> Lasers use stimulated emission for sub-micron precision, while photonic devices detect binary presence/absence.</p></div>" } }, {
     "type": "Question",
     "name": "Question 10",
     "Question": {
@@ -283,7 +267,7 @@
     },
     "Answer": {
       "type": "string",
-      "content": "1. Compressive stress\n2. Shear stress"
+      "content": "1. Compressive stress<br>2. Shear stress"
     },
     "Explanation": {
       "type": "string",
