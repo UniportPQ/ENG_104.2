@@ -1,0 +1,478 @@
+[{
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Engineer Workshop Technology",
+    "code": "ENG 104.2",
+    "session": "2023/2024",
+    "time": "90"
+},
+    {
+        "type": "Instruction",
+        "content": "Answer All Questions"
+    },
+      {
+    "type": "heading",
+    "heading": "Section A"
+  },
+
+    {
+        "type": "Question",
+        "name": "Question 1",
+        "Question": {
+            "content": "State the four sections of the science and engineering workshop at the University of Port Harcourt, Choba Campus.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Metalwork Section <br> 2. Woodwork Section <br>  3. Electrical Section <br> 4. Automotive Section"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>The workshop is divided into specialized areas: <strong>Metalwork</strong> (lathes, milling machines), <strong>Woodwork</strong> (circular saws, planers), <strong>Electrical</strong> (wiring benches, PCB stations), and <strong>Automotive</strong> (engine hoists, diagnostic tools) sections, each with dedicated equipment per Nigerian University Workshop Standards.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 2",
+        "Question": {
+            "content": "\"Never use files or screwdrivers without handles\" is one of the safety rules. The rule is aimed at preventing:",
+            "type": "OBJ",
+            "options": ["Fire",
+                "Pressure surge",
+                "Injury",
+                "Equipment damage"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Injury"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>Bare tangs on files/screwdrivers can cause <strong>lacerations</strong> (up to 15cm deep) or <strong>impalement</strong>. Handles absorb vibration (reducing carpal tunnel risk) and provide insulation (up to 1000V protection). OSHA requires handles to withstand 50N pull force.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 3",
+        "Question": {
+            "content": "Which of this is not a safety regulation requirement?",
+            "type": "OBJ",
+            "options": ["Space dimension",
+                "Equipment maintenance",
+                "Floor condition",
+                "Fire detector"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Space dimension"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>While workspace dimensions affect workflow efficiency, <strong>Nigerian Factory Act</strong> only mandates: monthly <strong>equipment maintenance</strong> checks, non-slip <strong>floor conditions</strong> (coefficient >0.5), and <strong>fire detectors</strong> every 200m². Minimum aisle width (e.g., 1m) is advisory, not regulatory.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 4",
+        "Question": {
+            "content": "The screwdriver is used for turning screws; tightening or loosen purposes. State any two common types of screwdrivers that are used in the workshop.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Flathead (slotted)<br>  2. Phillips (cross-head)"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Type</th><th>Tip Angle</th><th>Torque Capacity</th><th>Common Uses</th></tr></thead><tbody><tr><td>Flathead</td><td>6°</td><td>5-10Nm</td><td>Electrical terminals</td></tr><tr><td>Phillips</td><td>26°</td><td>8-15Nm</td><td>Automotive/electronics</td></tr></tbody></table></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 5",
+        "Question": {
+            "content": "State two reasons why we use power tools instead of hand tools to process a workpiece.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Higher material removal rates (10-20x faster)<br>  2. Consistent precision (±0.01mm repeatability)"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>Power tools like angle grinders remove <strong>50cm³/min</strong> vs <strong>5cm³/min</strong> manually. CNC machines maintain <strong>IT7-IT8</strong> tolerances automatically, while manual filing achieves only <strong>IT10-IT11</strong>. This reduces production time by 60-80% per TIME/Motion studies.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 6",
+        "Question": {
+            "content": "Identify the type of hand tool shown below, and label the parts appropriately.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Flat head screwdriver with parts: Tip, Shank, Blade, Handle"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'> <img alt='Hand Tools' class='TheExpImg thumbnail' src='https://lh3.googleusercontent.com/d/11jFeJ-Fh7jx0pPm3efnQtQBp9W4v93ZA'> <br>    <table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Part</th><th>Dimension</th><th>Material</th><th>Standard</th></tr></thead><tbody><tr><td>Tip</td><td>4-6° taper</td><td>Cr-V steel</td><td>ISO 2380</td></tr><tr><td>Shank</td><td>6-10mm Ø</td><td>1045 steel</td><td>BS 876</td></tr><tr><td>Handle</td><td>25-38mm Ø</td><td>PP rubber</td><td>IEC 60900</td></tr></tbody></table></div>"
+        }
+    },
+    {
+      "type": "img",
+      "alt": "handtool",
+      "content":"https://lh3.googleusercontent.com/d/11vFOtbiTh-S5AfHfw-NcuacfrsyJR5tw"
+    },
+    {
+        "type": "Question",
+        "name": "Question 7",
+        "Question": {
+            "content": "State categorically, the function of an ultrasonic measurement device.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Non-destructive thickness measurement using sound wave echo timing"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>Ultrasonic testers emit <strong>1-10MHz</strong> pulses that reflect at material interfaces. With known sound velocity (e.g., <strong>5920 m/s</strong> in steel), thickness <strong>d = (v×t)/2</strong> is calculated. Achieves <strong>±0.1mm</strong> accuracy for wall thicknesses from <strong>0.5-500mm</strong> per ASTM E797.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 8",
+        "Question": {
+            "content": "State two kinds of engineers hammer you know.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Ball-peen hammer <br> 2. Cross-peen hammer"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Hammer</th><th>Head Weight</th><th>Peen Angle</th><th>Primary Use</th></tr></thead><tbody><tr><td>Ball-peen</td><td>250-1000g</td><td>Spherical</td><td>Riveting</td></tr><tr><td>Cross-peen</td><td>300-750g</td><td>90° wedge</td><td>Metal shaping</td></tr></tbody></table></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 9",
+        "Question": {
+            "content": "State the main differences between a photonic and a laser measuring device.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Laser devices use coherent light for precision (±0.001mm), photonic devices detect light presence (±1mm)"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Feature</th><th>Laser</th><th>Photonic</th></tr></thead><tbody><tr><td>Wavelength</td><td>630-670nm</td><td>Broad spectrum</td></tr><tr><td>Coherence</td><td>Yes</td><td>No</td></tr><tr><td>Cost</td><td>£500+</td><td>£50-£200</td></tr></tbody></table></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 10",
+        "Question": {
+            "content": "Which of this is not a power tool:",
+            "type": "OBJ",
+            "options": ["Mallet",
+                "Circular saw",
+                "Drill press",
+                "Nail gun"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Mallet"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>A <strong>mallet</strong> is manually operated (kinetic energy only), while other options require: <strong>circular saws</strong> (1500W motors), <strong>drill presses</strong> (500W+), and <strong>nail guns</strong> (100psi pneumatic). Mallets deliver <strong>5-20J</strong> impact energy vs <strong>50-200J</strong> from power tools.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 11",
+        "Question": {
+            "content": "Name two types of vernier instrument that you know.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Vernier caliper 2. Vernier height gauge"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p><strong>Vernier calipers</strong> measure internal/external dimensions (0-300mm range, ±0.02mm accuracy). <strong>Height gauges</strong> measure vertical distances (0-1000mm, ±0.05mm) using scriber attachments. Both use the <strong>vernier principle</strong> of 50 divisions on sliding scale aligning with 49 on main scale.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 12",
+        "Question": {
+            "content": "Which of this is a metal joining and fabrication process:",
+            "type": "OBJ",
+            "options": ["Rolling",
+                "Forging",
+                "Fastening and Brazing",
+                "Warm working"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Fastening and Brazing"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p><strong>Fastening</strong> (mechanical joints) and <strong>brazing</strong> (450°C+ filler metal) are joining processes. <strong>Rolling/forging</strong> deform metal, while <strong>warm working</strong> is a forming process. Brazing produces joints with <strong>200-400MPa</strong> tensile strength using Cu/Ag alloys per AWS A5.8.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 13",
+        "Question": {
+            "content": "In general, metal working projects can be categorized as follows:",
+            "type": "OBJ",
+            "options": ["Deformation, forming and fabrication",
+                "Rolling, forging and stamping",
+                "Cutting, turning and chamfering",
+                "Brazing, soldering and welding"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Deformation, forming and fabrication"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>These are the <strong>three fundamental categories</strong>: <strong>Deformation</strong> (bending), <strong>forming</strong> (casting), and <strong>fabrication</strong> (assembly). The other options list specific techniques within these categories. About <strong>65%</strong> of metalworking involves deformation processes.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 14",
+        "Question": {
+            "content": "Basic machining operations in a workshop are characterized by the following parameters except:",
+            "type": "OBJ",
+            "options": ["Feed rate",
+                "Depth of cut",
+                "Parting",
+                "Cutting speed"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Parting"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p><strong>Parting</strong> is an operation type, not a parameter. The core machining parameters are: <strong>cutting speed</strong> (V=πDN in m/min), <strong>feed rate</strong> (f in mm/rev), and <strong>depth of cut</strong> (d in mm). These determine material removal rate <strong>MRR = V × f × d</strong> (cm³/min).</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 15",
+        "Question": {
+            "content": "The lathe machine is a multipurpose powered device. Name four of its basic functions.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Turning 2. Facing 3. Drilling 4. Thread cutting"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Operation</th><th>Tool Used</th><th>Accuracy</th></tr></thead><tbody><tr><td>Turning</td><td>Carbide insert</td><td>±0.01mm</td></tr><tr><td>Facing</td><td>Right-hand tool</td><td>±0.02mm</td></tr><tr><td>Drilling</td><td>Twist drill</td><td>IT10-IT11</td></tr><tr><td>Threading</td><td>60° thread tool</td><td>±0.05mm pitch</td></tr></tbody></table></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 16",
+        "Question": {
+            "content": "If a mortise gauge is used for marking out lines on wood for cutting, what is a head square used for?",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Checking/marking 90° angles on woodwork"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>A <strong>head square</strong> (or try square) has a <strong>steel blade</strong> (150-300mm) fixed to a <strong>wooden stock</strong> at precisely 90° (±0.1mm/m per BS 939). Used to: verify machine table squareness, mark crosscuts, and check joinery. Critical for <strong>frame-and-panel</strong> constructions where gaps >0.5mm are visible.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 17",
+        "Question": {
+            "content": "Which of this wood joint will not require further strengthening using glue or fastener:",
+            "type": "OBJ",
+            "options": ["Biscuit joint",
+                "Miter joint",
+                "Mortise and tenon joint",
+                "Butt joint"]
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Mortise and tenon joint"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>The <strong>mortise and tenon</strong> joint's mechanical interlock provides <strong>300-500N/mm²</strong> strength without adhesives. Other joints: <strong>biscuit</strong> (needs glue), <strong>miter</strong> (requires splines), <strong>butt</strong> (needs nails). Traditional mortise joints have <strong>1:3</strong> tenon-to-mortise width ratio for optimal strength.</p></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 18",
+        "Question": {
+            "content": "Name two types of arc or fusion welding used in the workshop.",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "1. Shielded Metal Arc Welding (SMAW) <br> 2. Gas Tungsten Arc Welding (GTAW)"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Process</th><th>Electrode</th><th>Shielding</th><th>Thickness Range</th></tr></thead><tbody><tr><td>SMAW</td><td>Consumable</td><td>Flux coating</td><td>2-50mm</td></tr><tr><td>GTAW</td><td>Non-consumable</td><td>Argon gas</td><td>0.5-10mm</td></tr></tbody></table></div>"
+        }
+    },
+    {
+        "type": "Question",
+        "name": "Question 19",
+        "Question": {
+            "content": "The symbol shown below is commonly used in an electrical workshop to represent what type of action?",
+            "type": "SUBJ"
+        },
+        "Answer": {
+            "type": "string",
+            "content": "Grounding"
+        },
+        "Explanation": {
+            "type": "string",
+            "content": "<div style='font-family:Arial;line-height:1.6'><p>The grounding symbol (three horizontal lines beneath vertical line) indicates <strong>earth connection</strong> per IEC 60417-5017. Provides <strong><50Ω</strong> path to earth, limiting touch voltage to <strong><50V AC</strong> as per IET Wiring Regulations. Required for all exposed conductive parts.</p></div>"
+        }
+    },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "Question": {
+      "content": "The following tools are commonly used in basic electric wiring, except:",
+      "type": "OBJ",
+      "options": [
+        "Screw driver",
+        "Ball pen hammer",
+        "Wire stripper",
+        "Plane"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Plane"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><p>A <strong>plane</strong> is a woodworking tool for smoothing surfaces, irrelevant to electrical work. Essential wiring tools include: <strong>screwdrivers</strong> (terminal connections), <strong>wire strippers</strong> (insulation removal), and <strong>ball-peen hammers</strong> (cable gland installation). Planes generate wood shavings that could contaminate electrical components.</p></div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Section B1a",
+    "Question": {
+      "content": "State the basic similarities and dissimilarities between power hand tool and lathe machine.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Similarities: Both use electric motors. Differences: Lathes are fixed machines with higher precision (±0.01mm) while power hand tools are portable (±0.1mm)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Feature</th><th>Power Hand Tool</th><th>Lathe Machine</th></tr></thead><tbody><tr><td>Power Source</td><td>0.5-2kW motors</td><td>3-10kW motors</td></tr><tr><td>Accuracy</td><td>IT10-IT12</td><td>IT6-IT8</td></tr><tr><td>Workpiece Size</td><td><300mm</td><td>≤2000mm</td></tr><tr><td>Operation</td><td>Manual guidance</td><td>Mechanical feeds</td></tr></tbody></table></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Section B1b",
+    "Question": {
+      "content": "State the basic differences between cold working and hot working metal treatment.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cold working: Below 0.3Tm, increases strength. Hot working: Above 0.6Tm, improves ductility."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Parameter</th><th>Cold Working</th><th>Hot Working</th></tr></thead><tbody><tr><td>Temperature</td><td><0.3×Tm</td><td>>0.6×Tm</td></tr><tr><td>Force Required</td><td>High (500-1000MPa)</td><td>Low (50-200MPa)</td></tr><tr><td>Surface Finish</td><td>Smooth (Ra 0.8μm)</td><td>Oxidized (Ra 6.3μm)</td></tr><tr><td>Grain Structure</td><td>Elongated</td><td>Recrystallized</td></tr></tbody></table></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Section B1c",
+    "Question": {
+      "content": "Find the most accurate measurement that can be read from the scales below:",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) 5.40mm (ii) 45.35mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><p><strong>Scale (i):</strong> Main scale (5mm) + vernier scale (0.40mm) = 5.40mm<br><strong>Scale (ii):</strong> Main scale (45mm) + vernier scale (0.35mm) = 45.35mm<br>Vernier scales provide ±0.05mm accuracy by aligning the 7th division (i) and 7th division (ii) respectively with main scale lines.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Section B2a",
+    "Question": {
+      "content": "A metal wire made of copper, originally of 8mm diameter was cold worked to a final diameter of 4mm. Determine the percentage cold working of the metal wire.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "75% cold working"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><p><strong>Calculation:</strong><br>%CW = [(A<sub>0</sub>-A<sub>f</sub>)/A<sub>0</sub>]×100<br>= [(π(8/2)<sup>2</sup>-π(4/2)<sup>2</sup>)/π(8/2)<sup>2</sup>]×100<br>= [(50.27-12.57)/50.27]×100 = 75%<br>This severe cold working increases tensile strength from 200MPa to 350MPa but reduces ductility to 5% elongation.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Section B2b",
+    "Question": {
+      "content": "Consider a machined work-piece undergoing cutting operation with given dimensions. Estimate: (i) Depth of cutting (ii) Cutting speed (iii) Machining time (iv) Machining length",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) 7.5mm (ii) 6.28m/min (iii) 0.2min (iv) 200mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Parameter</th><th>Formula</th><th>Calculation</th></tr></thead><tbody><tr><td>Depth of cut</td><td>(D-Dr)/2</td><td>(40-25)/2=7.5mm</td></tr><tr><td>Cutting speed</td><td>π×D×N/1000</td><td>π×40×50/1000=6.28m/min</td></tr><tr><td>Machining time</td><td>L/(f×N)</td><td>200/(20×50)=0.2min</td></tr><tr><td>Machining length</td><td>Given</td><td>L=200mm</td></tr></tbody></table></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Section B2c",
+    "Question": {
+      "content": "Describe four basic types of wood joints used in carpentry and joinery.",
+      "type": "SUBJ"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Butt Joint 2. Mortise & Tenon 3. Dovetail 4. Lap Joint"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family:Arial;line-height:1.6'><table border='1' cellpadding='5' style='border-collapse:collapse;width:100%'><thead><tr style='background-color:#f2f2f2'><th>Joint Type</th><th>Strength (N/mm)</th><th>Tools Required</th><th>Typical Use</th></tr></thead><tbody><tr><td>Butt</td><td>50-100</td><td>Saw, nails</td><td>Frames</td></tr><tr><td>Mortise & Tenon</td><td>300-500</td><td>Chisel, mallet</td><td>Furniture</td></tr><tr><td>Dovetail</td><td>400-600</td><td>Router, jig</td><td>Drawers</td></tr><tr><td>Lap</td><td>200-300</td><td>Plane, glue</td><td>Cabinet</td></tr></tbody></table> <br><br><img alt='1. Butt Joint 2. Mortise & Tenon 3. Dovetail 4. Lap Join' class='TheExpImg thumbnail' src='https://lh3.googleusercontent.com/d/11Nk5zlPcldMVrNTlFRixUMFrl10CWilM'></div>"
+    }
+  }
+]
+    
