@@ -24,11 +24,12 @@
         },
         "Answer": {
             "type": "string",
-            "content": "1. Metalwork Section <br> 2. Woodwork Section <br>  3. Electrical Section <br> 4. Automotive Section"
+            "content": "1. Electrical Section <br> 2. Welding Section <br>  3. Carpentry Section <br> 4. Glass Section  <br> 5. Sheet metal Section"
+
         },
         "Explanation": {
             "type": "string",
-            "content": "<div style='font-family:Arial;line-height:1.6'><p>The workshop is divided into specialized areas: <strong>Metalwork</strong> (lathes, milling machines), <strong>Woodwork</strong> (circular saws, planers), <strong>Electrical</strong> (wiring benches, PCB stations), and <strong>Automotive</strong> (engine hoists, diagnostic tools) sections, each with dedicated equipment per Nigerian University Workshop Standards.</p></div>"
+            "content": "<div style='font-family:Arial;line-height:1.6'>1. Electrical Section <br> 2. Welding Section <br>  3. Carpentry Section <br> 4. Glass Section  <br> 5. Sheet metal Section</div>"
         }
     },
     {
